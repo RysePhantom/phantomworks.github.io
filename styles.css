@@ -82,11 +82,11 @@ footer {
     background-color: #1a1a1a;
     color: #0f74a8;
     text-align: center;
-    padding: 10px;
+    padding: 0.5px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 2px solid #8a2be2; /* Neon Purple border color */
+    border-top: 0.2px solid #8a2be2; /* Neon Purple border color */
 }
 
 /* Updated dropdown menu style */
