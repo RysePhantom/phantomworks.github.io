@@ -1,0 +1,159 @@
+/* Your existing styles here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('cybergirl2.png') center/cover fixed no-repeat;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Updated header style */
+header {
+    background-color: #1a1a1a;
+    color: #00ff00; /* Neon-cyberpunk green color for h1 */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+}
+
+.menu-bar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(26, 26, 26, 0.8); /* Semi-transparent black background */
+    padding: 10px;
+    border-top-left-radius: 8px;
+}
+
+.menu-item {
+    display: block;
+    color: #00ff00; /* Neon-cyberpunk green color for menu items */
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+/* Updated border styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 2px solid #8a2be2; /* Neon Purple border color */
+    position: relative;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(90deg, rgb(65, 6, 132), #0072a1); /* Gradient background */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #8a2be2; /* Neon Purple border color */
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.cta-button:hover {
+    background: linear-gradient(90deg, #3800a1, #510fa8); /* Inverted gradient on hover */
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.5); /* Soft glow effect */
+}
+
+blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 2px solid #8a2be2; /* Neon Purple border color */
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #0f74a8;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #8a2be2; /* Neon Purple border color */
+}
+
+/* Updated dropdown menu style */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1a1a1a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0072a1;
+}
+
+/* ... (previous CSS code) ... */
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #1a1a1a;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #0f74a8;
+    border-radius: 8px;
+    width: 80%;
+    color: #fff;
+}
+
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #0072a1;
+}
+
+
