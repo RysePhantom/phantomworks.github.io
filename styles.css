@@ -4,22 +4,51 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('cybergirl2.png') center/cover fixed no-repeat;
+    background: url('C:/CyberPunk Headphones/cybergirl2.png') center/cover fixed no-repeat;
     background-color: #000;
     color: #fff;
 }
 
-/* Updated header style */
+
 header {
+    background: url('C:/CyberPunk Headphones/Cyberworld.jpg') center/cover fixed no-repeat; /* Set background image here */
     background-color: #1a1a1a;
-    color: #00ff00; /* Neon-cyberpunk green color for h1 */
-    text-align: center;
     padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 255, 0.8); /* Neon ocean blue glowing border */
+    border-radius: 8px;
 }
 
 h1 {
-    font-size: 2em; /* Adjust the font size as needed */
+    font-size: 2em;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    transition: text-shadow 0.3s ease-in-out;
 }
+
+h1:hover {
+    text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 2px solid #0000ff;
+    position: relative;
+}
+
+
+/* Apply section's border color to the border of the box surrounding h1 */
+section h1 {
+    border-color: #0000ff; /* Same color as section's border */
+    border-width: 2px; /* Same width as section's border */
+    border-style: solid;
+}
+
 
 .menu-bar {
     position: absolute;
@@ -79,14 +108,10 @@ blockquote {
 }
 
 footer {
-    background-color: #1a1a1a;
-    color: #0f74a8;
-    text-align: center;
-    padding: 0.1px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-top: 0.2px solid #8a2be2; /* Neon Purple border color */
+    height: 50px; /* Adjust the height as needed */
+    background: none; /* Remove background color */
+    border: none; /* Remove border */
+    margin-top: 20px; /* Adjust the margin as needed to separate from the content above */
 }
 
 /* Updated dropdown menu style */
