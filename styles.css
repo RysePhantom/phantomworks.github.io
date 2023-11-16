@@ -4,14 +4,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('C:/CyberPunk Headphones/cybergirl2.png') center/cover fixed no-repeat;
+    background: url('C:/CyberPunk Headphones//Images/cybergirl2.png') center/cover fixed no-repeat;
     background-color: #000;
     color: #fff;
 }
 
 
 header {
-    background: url('C:/CyberPunk Headphones/Cyberworld.jpg') center/cover fixed no-repeat; /* Set background image here */
+    background: url('C:/CyberPunk Headphones/Images/Cyberworld.jpg') center/cover fixed no-repeat; /* Set background image here */
     background-color: #1a1a1a;
     padding: 20px;
     text-align: center;
